@@ -33,7 +33,7 @@ const part2 = () => {
  
    inputArrayEachLine.reduce((totalValueForElf, meal) => {
  
-     // If we reach end of elf, check if we beat previous maxCalorieForElf value
+     // If we reach end of elf, put in in elf array (IK i could have returned from reduce, but cba)
      if(meal === '') {
        allElfsCalories.push(totalValueForElf)
        return 0
