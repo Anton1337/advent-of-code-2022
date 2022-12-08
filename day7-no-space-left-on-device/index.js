@@ -71,7 +71,7 @@ const part1 = () => {
 
     })
 
-    // Store sizes of every directory in a map.
+    // Store size of directory in a map.
     // Since we store them in a "flat" map, and directories can have the same name
     // we need to make them unique. Therefore, add random decimal number after.
     if(dirSizesMap[dir]) {
@@ -166,7 +166,7 @@ const part2 = () => {
 
     })
 
-    // Store sizes of every directory in a map.
+    // Store sizes of directory in a map.
     // Since we store them in a "flat" map, and directories can have the same name
     // we need to make them unique. Therefore, add random decimal number after.
     if(dirSizesMap[dir]) {
