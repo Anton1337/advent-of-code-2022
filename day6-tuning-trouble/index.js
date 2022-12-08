@@ -40,7 +40,7 @@ const part2 = () => {
   // the beginning of the buffer, 
   // and the end of the marker is the current index + the length of the message marker.
   let endOfMessageMarkerIndex
-  for(const [i, char] of inputString.entries()) {
+  for(const [i, _] of inputString.entries()) {
     allUniqueInFourteenSequence = new Set(
       inputString.slice(i, i + LENGTH_OF_MESSAGE_MARKER)
     )
